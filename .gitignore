@@ -3,7 +3,7 @@
 
 # But not these files...
 !.gitignore
-!server.py
+!whisper/server.py
 
 # ...even if they are in subdirectories
 !*/
