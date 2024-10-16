@@ -1,11 +1,13 @@
-__pycache__/
-*.py[cod]
-*$py.class
-*.egg-info
-.pytest_cache
-.ipynb_checkpoints
+# Ignore everything
+*
 
-thumbs.db
-.DS_Store
-.idea
+# But not these files...
+!.gitignore
+!server.py
 
+# ...even if they are in subdirectories
+!*/
+
+# If you have subdirectories that you want to ignore completely, add them here
+# For example:
+# node_modules/
